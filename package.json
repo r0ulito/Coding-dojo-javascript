@@ -1,0 +1,14 @@
+{
+  "name": "module_js",
+  "version": "0.0.1",
+  "description": "little JS playground",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "r0ulito",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  }
+}
