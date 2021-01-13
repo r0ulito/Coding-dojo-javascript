@@ -11,7 +11,7 @@ describe('String reverser', function() {
 
     context('Without spaces', function() {
         it('should returns !olleH', function() {
-            expect(stringReverser('Hello!')).to.be.equal('! olleH')
+            expect(stringReverser('Hello!')).to.be.equal('!olleH')
         });
     });
 
