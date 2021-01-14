@@ -1,5 +1,5 @@
  module.exports = {
-    stringReverser: function(s) {
+    palimdromeChecker: function(s) {
         // Your code goes here
     
         return s //something

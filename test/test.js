@@ -1,23 +1,30 @@
-let stringReverser = require('../main').stringReverser;
+let palimdromeChecker = require('../main').palimdromeChecker;
 let expect = require('chai').expect;
 
 
-describe('String reverser', function() {
-    context('Without a string', function() {
-        it('should returns an empty string', function() {
-            expect(stringReverser('')).to.be.equal('')
+describe('Palindrome Checker', function() {
+    context('With an empty string', function() {
+        it('should return true', function() {
+            expect(palimdromeChecker('')).to.be.true
         });
     });
 
-    context('Without spaces', function() {
-        it('should returns !olleH', function() {
-            expect(stringReverser('Hello!')).to.be.equal('!olleH')
+    context('With a common word', function() {
+        it('should returns false', function() {
+            expect(palimdromeChecker('Hello!')).to.be.false
         });
     });
 
-    context('A long sentence', function() {
-        it('should returns lasreveRgnirts noitcnof al à ecârg eénruoter esarhp eugnol sèrt enu sius ej ,ruojnoB', function() {
-            expect(stringReverser('Bonjour, je suis une très longue phrase retournée grâce à la fonction stringReversal')).to.be.equal('lasreveRgnirts noitcnof al à ecârg eénruoter esarhp eugnol sèrt enu sius ej ,ruojnoB')
+    context('With a short palidrome', function() {
+        it('should returns true', function() {
+            expect(palimdromeChecker('kayak')).to.be.true
         });
     });
-})
+
+    context('With a long palidrome and punctuation', function() {
+        it('should returns true', function() {
+            expect(palimdromeChecker('Et Luc colporte trop l\'occulte')).to.be.true
+        });
+    });
+    
+});
