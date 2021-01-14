@@ -9,6 +9,12 @@ Atelier | Pour commencer l'exercice | Pour voir la solution
 [Falsy bouncer](https://github.com/r0ulito/Coding-dojo-javascript/tree/step-3)|git checkout -f step-3|git checkout step-3-solution
 [Is Bob a palindrome](https://github.com/r0ulito/Coding-dojo-javascript/tree/step-4)|git checkout -f step-4|git checkout step-4-solution
 
+### Mise en place
+
+1. Cloner le repo
+2. npm install
+3. git checkout step-1
+
 ### Nous allons procéder en mode TDD (Test Driven Development)
 
 Pour vous aider, les tests sont déjà écrits.
