@@ -12,8 +12,9 @@ Atelier | Pour commencer l'exercice | Pour voir la solution
 ### Mise en place
 
 1. Cloner le repo
-2. npm install
-3. git checkout step-1
+2. cd Coding-dojo-javascript
+3. npm install
+4. git checkout step-1
 
 ### Nous allons procéder en mode TDD (Test Driven Development)
 
