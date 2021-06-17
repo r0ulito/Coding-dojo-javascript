@@ -4,10 +4,10 @@ Le but de ce cet entrainement est de consolider vos connaissances en JS :
 
 Atelier | Pour commencer l'exercice | Pour voir la solution
 ----------------------|---------------------------|----------------------
-[String reversal](https://github.com/r0ulito/Coding-dojo-javascript/tree/step-1)|git checkout -f step-1|git checkout step-1-solution
-[Add up an array (and more)](https://github.com/r0ulito/Coding-dojo-javascript/tree/step-2)|git checkout -f step-2|git checkout step-2-solution
-[Falsy bouncer](https://github.com/r0ulito/Coding-dojo-javascript/tree/step-3)|git checkout -f step-3|git checkout step-3-solution
-[Is Bob a palindrome](https://github.com/r0ulito/Coding-dojo-javascript/tree/step-4)|git checkout -f step-4|git checkout step-4-solution
+[String reversal](https://github.com/r0ulito/Coding-dojo-javascript/tree/step-1)|git checkout -f step-1|git checkout -f step-1-solution
+[Add up an array (and more)](https://github.com/r0ulito/Coding-dojo-javascript/tree/step-2)|git checkout -f step-2|git checkout -f step-2-solution
+[Falsy bouncer](https://github.com/r0ulito/Coding-dojo-javascript/tree/step-3)|git checkout -f step-3|git checkout -f step-3-solution
+[Is Bob a palindrome](https://github.com/r0ulito/Coding-dojo-javascript/tree/step-4)|git checkout -f step-4|git checkout -f step-4-solution
 
 ### Mise en place
 
