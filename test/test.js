@@ -10,7 +10,7 @@ describe('arraySum()', function() {
     });
 
     context('with numerics', function() {
-        it('should return 10', function() {
+        it('should return 15', function() {
             expect(arraySum([1, 2, 3, 4, 5])).to.equal(15);
         });
     });
